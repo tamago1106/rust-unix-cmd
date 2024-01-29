@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: test
-        uses: cargo test --workspace
+        run: cargo test --workspace
